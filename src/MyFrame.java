@@ -184,7 +184,7 @@ public class MyFrame {
 		toolBar.add(lblMiesic);
 		
 		JComboBox<Object> comboBox_1 = new JComboBox<Object>();
-		comboBox_1.setModel(new DefaultComboBoxModel<Object>(new String[] {"January", "February", "March", "April", "May", "Juli", "Juni", "September", "Oktober", "November", "December"}));
+		comboBox_1.setModel(new DefaultComboBoxModel<Object>(new String[] {"January", "February", "March", "April", "May", "June", "July", "September", "Oktober", "November", "December"}));
 		comboBox_1.setToolTipText("Choose a month");
 		toolBar.add(comboBox_1);
 		
